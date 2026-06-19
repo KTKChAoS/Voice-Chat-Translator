@@ -1,0 +1,13 @@
+# Virtual environment
+.venv/
+
+# Downloaded models (large; fetched manually into models/<name>/)
+models/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs / scratch
+pip_install.log
+*.log

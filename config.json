@@ -1,0 +1,31 @@
+{
+  "model": {
+    "size": "medium",
+    "path": "models/faster-whisper-medium",
+    "device": "auto",
+    "compute_type": "int8_float16",
+    "task": "translate",
+    "language": null,
+    "beam_size": 1
+  },
+  "vad": {
+    "aggressiveness": 2,
+    "silence_ms": 400,
+    "min_speech_ms": 200,
+    "max_utterance_ms": 8000,
+    "pre_pad_ms": 150,
+    "partial_interval_ms": 700
+  },
+  "ui": {
+    "mode": "overlay",
+    "opacity": 0.85,
+    "font_size": 18,
+    "max_lines": 6,
+    "width": 620,
+    "height": 240,
+    "x": 40,
+    "y": 40,
+    "click_through": false,
+    "show_original_lang": true
+  }
+}

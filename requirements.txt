@@ -1,0 +1,12 @@
+# Core
+faster-whisper>=1.1.0       # Whisper STT/translation (CTranslate2 backend)
+PyAudioWPatch>=0.2.12.7     # PyAudio fork with WASAPI loopback capture (Windows)
+webrtcvad-wheels>=2.0.14    # Voice-activity detection (prebuilt wheels, no compiler needed)
+numpy>=1.24
+scipy>=1.11                 # Resampling
+PySide6>=6.6                # Overlay / window UI + system tray
+
+# GPU runtime libraries for NVIDIA (needed for faster-whisper on CUDA).
+# Comment these two out if you want to run CPU-only.
+nvidia-cublas-cu12>=12.3
+nvidia-cudnn-cu12>=9.0
